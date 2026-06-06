@@ -54,17 +54,7 @@ cd ..
 Create a `.env` file in the `backend/` directory (you can copy the provided `backend/.env` file if it exists, or create one).
 Example **`backend/.env`** contents:
 ```env
-# MongoDB Connection (Falls back to local offline db.json automatically if using our mock configuration)
-MONGODB_URI=mongodb+srv://s9arr0w:w7KIAkuxSQnmc4dZ@cluster0.7jhobvx.mongodb.net/careone?appName=Cluster0
 
-# JWT Secret for Token Generation
-JWT_SECRET=careone_jwt_secret_change_this_in_production_2026
-
-# Server Port
-PORT=5000
-
-# Client URL (For Frontend CORS Permissions)
-CLIENT_URL=http://localhost:3000
 ```
 
 ### Step 4: Seed the Database
